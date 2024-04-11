@@ -32,9 +32,10 @@ def index():
 
 @app.route('/ahoj', methods=['GET', 'POST'])
 def ahoj_view():  
-    return "AHOJ MAJO"
+    return "Vitej"
 
 
 if __name__ == "__main__":
     app.run(debug=True)
 
+# test
